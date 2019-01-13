@@ -15,6 +15,7 @@
     "tslint-fix": "tslint --fix -c tslint.js -p tsconfig.json",
     "lint-staged": "lint-staged",
     "lint-staged:ts": "tslint -c tslint.js -p tsconfig.json",
+    "setup": "pm2 deploy production setup",
     "deploy": "pm2 deploy production"
   },
   "repository": {
