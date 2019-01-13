@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV='development' nodemon dist/server.js",
-    "dev-ts": "tsc -w",
     "build": "npm run tslint && npm run build-ts && npm run copy-static",
     "build-ts": "tsc",
+    "watch-ts": "tsc -w",
     "watch-test": "npm run test -- --watchAll",
     "test": "jest --forceExit --coverage --verbose",
     "copy-static": "ts-node copy-static.ts",
@@ -61,7 +61,7 @@
     "typescript": "^3.2.2"
   },
   "lint-staged": {
-    "{src,test}/**/*.{ts,tsx}": [
+    "src/**/*.{ts,tsx}": [
       "npm run lint-staged:ts"
     ]
   },

@@ -22,7 +22,7 @@
     "skipLibCheck": true
   },
   "include": [
-    "src/**/*"
+    "src/**/*",
   ],
   "experimentalDecorators": true
 }
