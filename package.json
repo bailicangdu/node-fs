@@ -1,0 +1,70 @@
+{
+  "name": "node-fs",
+  "version": "1.0.0",
+  "description": "基于node搭建的文件/图片管理系统",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV='development' nodemon dist/server.js",
+    "dev-ts": "tsc -w",
+    "build": "npm run tslint && npm run build-ts && npm run copy-static",
+    "build-ts": "tsc",
+    "watch-test": "npm run test -- --watchAll",
+    "test": "jest --forceExit --coverage --verbose",
+    "copy-static": "ts-node copy-static.ts",
+    "tslint": "tslint -c tslint.js -p tsconfig.json",
+    "tslint-fix": "tslint --fix -c tslint.js -p tsconfig.json",
+    "lint-staged": "lint-staged",
+    "lint-staged:ts": "tslint -c tslint.js -p tsconfig.json",
+    "deploy": "pm2 deploy production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bailicangdu/node-fs.git"
+  },
+  "keywords": [
+    "node",
+    "fs",
+    "mongodb",
+    "img"
+  ],
+  "author": "cangdu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bailicangdu/node-fs/issues"
+  },
+  "homepage": "https://github.com/bailicangdu/node-fs#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "config": "^3.0.1",
+    "consola": "^2.3.2",
+    "gm": "^1.23.1",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.10.1",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.3",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/shelljs": "^0.8.1",
+    "jest": "^23.6.0",
+    "lint-staged": "^8.1.0",
+    "pre-commit": "^1.2.2",
+    "shelljs": "^0.8.3",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.12.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.2.2"
+  },
+  "lint-staged": {
+    "{src,test}/**/*.{ts,tsx}": [
+      "npm run lint-staged:ts"
+    ]
+  },
+  "pre-commit": [
+    "lint-staged"
+  ]
+}
