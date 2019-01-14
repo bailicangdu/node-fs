@@ -37,7 +37,6 @@
   "homepage": "https://github.com/bailicangdu/node-fs#readme",
   "dependencies": {
     "chalk": "^2.4.2",
-    "config": "^3.0.1",
     "consola": "^2.3.2",
     "gm": "^1.23.1",
     "koa": "^2.6.2",

@@ -1,6 +1,7 @@
 import app from './app';
 import consola from 'consola';
+import config from './config';
 
-app.listen(8009, () => {
-  consola.success('listen 8009 port success!');
+app.listen(config.port, () => {
+  consola.success(`listen ${config.port} port success!`);
 });

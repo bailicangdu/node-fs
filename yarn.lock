@@ -48,6 +48,10 @@
     "@types/connect" "*"
     "@types/node" "*"
 
+"@types/config@^0.0.34":
+  version "0.0.34"
+  resolved "http://registry.npm.taobao.org/@types/config/download/@types/config-0.0.34.tgz#123f91bdb5afdd702294b9de9ca04d9ea11137b0"
+
 "@types/connect@*":
   version "3.4.32"
   resolved "http://registry.npm.taobao.org/@types/connect/download/@types/connect-3.4.32.tgz#aa0e9616b9435ccad02bc52b5b454ffc2c70ba28"
