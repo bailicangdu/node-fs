@@ -25,7 +25,7 @@ module.exports = {
     "label-position": true,
     "max-line-length": [
       true,
-      200
+      120
     ],
     "member-ordering": [
       false,

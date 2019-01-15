@@ -2,6 +2,10 @@
 
 基于 node + typescript 搭建的文件/图片管理系统
 
+# 技术栈
+
+node + typescript + mongodb + GraphicsMagick(图片管理)
+
 # 初衷
 
 最近随着开源项目越来越多，就会产生一些重复的工作，比如图片管理，[node-elm](https://github.com/bailicangdu/node-elm)项目已经有一套图片管理系统，但是和项目耦合比较深，功能比较少，不利扩展，灵活性较低。
