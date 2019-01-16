@@ -4,7 +4,7 @@
 
 # 技术栈
 
-node + typescript + mongodb + mongoose + GraphicsMagick(图片管理)
+node + koa + typescript + mongodb + mongoose + GraphicsMagick(图片管理)
 
 # 初衷
 
