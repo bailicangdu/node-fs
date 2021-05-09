@@ -48,10 +48,6 @@
     "@types/connect" "*"
     "@types/node" "*"
 
-"@types/config@^0.0.34":
-  version "0.0.34"
-  resolved "http://registry.npm.taobao.org/@types/config/download/@types/config-0.0.34.tgz#123f91bdb5afdd702294b9de9ca04d9ea11137b0"
-
 "@types/connect@*":
   version "3.4.32"
   resolved "http://registry.npm.taobao.org/@types/connect/download/@types/connect-3.4.32.tgz#aa0e9616b9435ccad02bc52b5b454ffc2c70ba28"
@@ -595,8 +591,8 @@ bser@^2.0.0:
     node-int64 "^0.4.0"
 
 bson@^1.1.0, bson@~1.1.0:
-  version "1.1.0"
-  resolved "http://registry.npm.taobao.org/bson/download/bson-1.1.0.tgz#bee57d1fb6a87713471af4e32bcae36de814b5b0"
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/bson/-/bson-1.1.6.tgz#fb819be9a60cd677e0853aee4ca712a785d6618a"
 
 buffer-from@^1.0.0, buffer-from@^1.1.0:
   version "1.1.1"
@@ -803,12 +799,6 @@ concat-stream@^1.4.7:
     inherits "^2.0.3"
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
-
-config@^3.0.1:
-  version "3.0.1"
-  resolved "http://registry.npm.taobao.org/config/download/config-3.0.1.tgz#c3118e2eb45fdfd135277339f87e2492559cb147"
-  dependencies:
-    json5 "^1.0.1"
 
 configstore@^3.0.0:
   version "3.1.2"
@@ -2500,12 +2490,6 @@ json-stringify-safe@~5.0.1:
 json5@^0.5.1:
   version "0.5.1"
   resolved "http://registry.npm.taobao.org/json5/download/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
-
-json5@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.npm.taobao.org/json5/download/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
-  dependencies:
-    minimist "^1.2.0"
 
 jsprim@^1.2.2:
   version "1.4.1"
