@@ -48,10 +48,6 @@
     "@types/connect" "*"
     "@types/node" "*"
 
-"@types/config@^0.0.34":
-  version "0.0.34"
-  resolved "http://registry.npm.taobao.org/@types/config/download/@types/config-0.0.34.tgz#123f91bdb5afdd702294b9de9ca04d9ea11137b0"
-
 "@types/connect@*":
   version "3.4.32"
   resolved "http://registry.npm.taobao.org/@types/connect/download/@types/connect-3.4.32.tgz#aa0e9616b9435ccad02bc52b5b454ffc2c70ba28"
@@ -803,12 +799,6 @@ concat-stream@^1.4.7:
     inherits "^2.0.3"
     readable-stream "^2.2.2"
     typedarray "^0.0.6"
-
-config@^3.0.1:
-  version "3.0.1"
-  resolved "http://registry.npm.taobao.org/config/download/config-3.0.1.tgz#c3118e2eb45fdfd135277339f87e2492559cb147"
-  dependencies:
-    json5 "^1.0.1"
 
 configstore@^3.0.0:
   version "3.1.2"
@@ -1652,8 +1642,8 @@ home-or-tmp@^2.0.0:
     os-tmpdir "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.7.1"
-  resolved "http://registry.npm.taobao.org/hosted-git-info/download/hosted-git-info-2.7.1.tgz#97f236977bd6e125408930ff6de3eec6281ec047"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 html-encoding-sniffer@^1.0.2:
   version "1.0.2"
@@ -2500,12 +2490,6 @@ json-stringify-safe@~5.0.1:
 json5@^0.5.1:
   version "0.5.1"
   resolved "http://registry.npm.taobao.org/json5/download/json5-0.5.1.tgz#1eade7acc012034ad84e2396767ead9fa5495821"
-
-json5@^1.0.1:
-  version "1.0.1"
-  resolved "http://registry.npm.taobao.org/json5/download/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
-  dependencies:
-    minimist "^1.2.0"
 
 jsprim@^1.2.2:
   version "1.4.1"
